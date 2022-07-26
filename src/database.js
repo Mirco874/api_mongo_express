@@ -17,7 +17,7 @@ const con=()=>{
 }
 
 const conection= async ()=>{
-    const uri=config.mongodbURL;
+    const uri= "mongodb+srv://mirco874:60109868Mirco@store.r28nk5s.mongodb.net/?retryWrites=true&w=majority" || config.mongodbURL;
     const db= await mongoose.connect(uri,{
         useNewUrlParser: true, 
         useUnifiedTopology: true

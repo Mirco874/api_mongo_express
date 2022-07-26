@@ -1,7 +1,6 @@
 import tasksRouter from './routes/tasks'
 import  './database'
 import cors from 'cors'
-import {CorsOptions} from 'cors'
 import { corsOptions } from './config/corsOptions'
 
 const express=require('express')
